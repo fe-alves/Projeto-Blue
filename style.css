@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: black url("img1.jpg") center center no-repeat;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Spartan', sans-serif;
+}
+
+header{
+    background-color: lemonchiffon;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    border: 5px solid lemonchiffon;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15mm;
+}
+
+#btn-texto {
+    margin: 5mm;
+    background-color: lemonchiffon;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#bio {
+    width: 750px;
+    height: 420px;
+    background: lemonchiffon;
+    border:solid lemonchiffon 20px;
+    border-radius:0px 20px 20px 0px;
+}
+
+#foto {
+    width: 400px;
+    height: 440px;
+    background: lemonchiffon;
+    border:solid lemonchiffon 10px;
+    border-radius:20px 0px 0px 20px;
+}
+
+#texto {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#fonte {
+    font-size: 10px;
+}
+
+img {
+    width: 110%;
+}
